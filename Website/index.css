@@ -1,0 +1,32 @@
+.title {
+    text-align: center;
+    font-size: 72pt;
+    color:rgb(112, 111, 111);
+   
+}
+
+.links {
+    margin-left: 400px;
+    font-size: 30px;
+    padding-right: 1px;
+    color: orange;
+}
+
+.para {
+    font-size: 30px;
+    color: rgb(161, 116, 32);
+    margin-left:125px;
+    margin-right: 125px;
+    margin-top: 75px;
+}
+.link2 {
+    color: orange;
+    font-size: 20px;
+}
+
+.whatPage {
+    color: slategray;
+    text-align: center;
+    margin-bottom:50px;
+
+}
