@@ -8,8 +8,42 @@
  </head>
  <body>
      <h1 class="title">How to contact me!</h1>
-     <a class="links" href="Homepage.html">Home</a>
-    <a class="links" href="Portfolio.html">My Portfolio</a>
-    <a class="links" href="ContactMe.html">Contact Me</a>
- </body>
+     <div>
+        <ul id="nav">
+          <li><a href="Homepage.html">HOME</a></li>
+          <li><a href="Portfolio.html">MY PORTFOLIO</a></li>
+          <li><a href="ContactMe.html">CONTACT ME</a></li>
+        </ul>
+        </div>
+    <p class="para">Feel free to email be if you have any queries or are interested in any of my projects I have completed</p>
+    <p class="para">Email - davidjohn19812@gmail.com</p> 
+
+    <div class="container">
+  <div style="text-align:center">
+    <h2>Contact Me</h2>
+    <p>Leave me a message!:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="/Images/Duncan.JPG" style="width:100%" class="rotateimg90" >
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="England">England</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+    
+</body>
  </html>

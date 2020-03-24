@@ -1,27 +1,43 @@
 .title {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
     text-align: center;
-    font-size: 72pt;
+    font-size: 48pt;
     color:rgb(112, 111, 111);
+    text-decoration: underline;
    
 }
 
 .links {
-    margin-left: 400px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     padding-right: 1px;
     color: orange;
 }
 
 .para {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     color: rgb(161, 116, 32);
     margin-left:125px;
     margin-right: 125px;
-    margin-top: 75px;
+    margin-top: 150px;
 }
 .link2 {
-    color: orange;
+    color: red;
     font-size: 20px;
+    font-weight: bold;
+
+}
+
+.img1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    
 }
 
 .whatPage {
@@ -30,3 +46,89 @@
     margin-bottom:50px;
 
 }
+
+div {
+    position:relative;
+    }
+    #nav {
+        margin-top: 50PX;
+    position:absolute;
+    left:50%;top:0;
+    margin-left:-375px; /* negative margin equal to half the width */
+    width:750px;
+    list-style:none; 
+
+    }
+    #nav li {
+    float:left;
+    }
+    #nav a {
+    display:block;
+    text-align:center;
+    width:150px; /* fixed width */
+    text-decoration:none; 
+    }
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      /* Style inputs */
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      /* Style the container/contact section */
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 10px;
+      }
+      
+      /* Create two columns that float next to eachother */
+      .column {
+        float: left;
+        width: 50%;
+        margin-top: 6px;
+        padding: 20px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+
+      .rotateimg90 {
+        -webkit-transform:rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
